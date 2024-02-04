@@ -47,3 +47,14 @@
     font-size: 14px;
     color: #666;
   }
+
+  .rodape {
+    padding: 24px;
+    width: 100%;
+    color: #b7c6b7;
+    background-color: rgb(112, 126, 85);
+    text-align: center;
+    font-family: 'Montserra', sans-serif;
+    font-size: 24px;
+    font-weight: 35;
+  }
