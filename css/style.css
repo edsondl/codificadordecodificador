@@ -4,17 +4,19 @@
   --cor-secundaria: #FFF6E9;
   --cor-terciaria: #BBE2EC;
   --cor-rodape: #BBE2EC;
+  --cor-fonte-corpo: Arial, sans-serif;
+  --cor-fonte-rodape: 'Montserra', sans-serif;
 }
 
 *{
-    box-sizing:border-box; 
+    box-sizing: border-box;  
     margin: 0;
     padding: 0
   }
 
   body {
     background-color: var(--cor-primaria);
-    font-family: Arial, sans-serif;
+    font-family: var(--cor-fonte-corpo);
     margin: 0;
     padding: 0;
     display: flex;
@@ -73,7 +75,7 @@
     color:var(--cor-primaria);
     background-color: var(--cor-rodape);
     text-align: center;
-    font-family: 'Montserra', sans-serif;
+    font-family: var(--cor-fonte-rodape);
     font-size: 24px;
     font-weight: 35;
   }
