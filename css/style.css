@@ -29,11 +29,22 @@
   }
 
   button {
+    border: 0;
+    color: #76db76;
+    font-weight: bold;
+    height: 45px;
+    width: 110px;
     padding: 10px;
     margin: 10px 0;
     cursor: pointer;
     background-color: green;
     border-radius: 20px 20px;
+    transition: all 0.5s;
+  }
+
+  button:hover {
+    background: #008000;
+    width: 150px;
   }
 
   #result {
