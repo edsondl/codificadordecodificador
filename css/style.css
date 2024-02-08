@@ -1,4 +1,5 @@
 :root {
+  --cor-titulo: #333;
   --cor-primaria: #40A2E3;
   --cor-secundaria: #FFF6E9;
   --cor-terciaria: #BBE2EC;
@@ -25,7 +26,7 @@
   }
 
   h1 {
-    color: #333;
+    color: var(--cor-titulo);
   }
 
   input, select {
