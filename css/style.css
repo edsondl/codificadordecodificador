@@ -80,7 +80,7 @@
     font-weight: 35;
   }
 
-  @media ( max-wudtg: 418.40px) {
+  @media ( max-width: 420px) {
     body {
       align-items: center;
       padding: 2% 0% 0% 15%;
@@ -88,4 +88,3 @@
     }
   }
 
-  /* 187.2 */
