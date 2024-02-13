@@ -79,3 +79,13 @@
     font-size: 1.5rem;
     font-weight: 35;
   }
+
+  @media ( max-wudtg: 418.40px) {
+    body {
+      align-items: center;
+      padding: 2% 0% 0% 15%;
+      flex-direction: column;
+    }
+  }
+
+  /* 187.2 */
